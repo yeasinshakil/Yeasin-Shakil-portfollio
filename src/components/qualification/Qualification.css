@@ -1,0 +1,104 @@
+.qualification_container{
+    max-width: 768px;
+}
+
+.qualification_tabs{
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--mb-2);
+}
+.qualification_button{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    color: var(--title-color);
+    margin: 0 var(--mb-1);
+    cursor: pointer;
+}
+
+.qualification_button:hover{
+    color: var(--title-color-dark);
+}
+
+.qualification_icons{
+    font-size: 1.8rem;
+    margin-right: var(--mb-0-25);
+}
+.qualification_active{
+    color: var(--title-color-dark);
+}
+.qualification_sections{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 0.5fr;
+}
+.qualification_content{
+    display: none;
+}
+.qualification_content_active{
+    display: block;
+}
+.qualification_data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+.qualification_title{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+.qualification_subtitle{
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1);
+}
+.qualification_calender{
+    font-size: var(--small-font-size);
+}
+.qualification_rounder{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: var(--text-color);
+}
+.qualification_line{
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var(--text-color);
+    transform: translate(6px, -7px);
+}
+.toggle_color{
+    color: rgb(175, 175, 175);
+}
+
+
+/* ==============Breakpoints============== */
+/* -----------For large devices -------------*/
+@media screen and (max-width: 992px) {
+   .qualification_container{
+    margin-left: auto;
+    margin-right: auto;
+   }
+  }
+  /* ----------for medium devices -----------*/
+  @media screen and (max-width: 768px){
+    .qualification_container{
+        margin-right: var(--mb-1-5);
+        margin-left: var(--mb-1-5);
+    }
+  }
+  @media screen and (max-width: 576px){
+    .qualification_sections{
+        grid-template-columns: initial;
+    }
+    .qualification_button{
+        margin: 0 var(--mb-0-75);
+    }
+  }
+  /* ---------for small device----------- */
+  @media screen and (max-width: 410px){
+    .qualification_data{
+        gap: .5rem;
+    }
+  }
