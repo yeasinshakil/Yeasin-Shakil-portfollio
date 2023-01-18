@@ -21,13 +21,13 @@ export const projectData = [
         id: 3,
         image: work3,
         title: 'Brand Desgin',
-        catagory: "web and design",
+        catagory: "design",
     },
     {
         id: 4,
         image: work4,
         title: 'Emma John',
-        catagory: "Ecommerse Website",
+        catagory: "web",
     },
     {
         id: 5,

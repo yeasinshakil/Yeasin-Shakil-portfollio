@@ -4,21 +4,26 @@ import { projectNav } from '../portfolio/Data';
 import WorkItems from './WorkItems';
 
 const Works = () => {
-    const [item, setItem] = useState({name: 'all'});
+    const [item, setItem] = useState({ name: 'all' });
     const [projects, setProjects] = useState([]);
     const [active, setActive] = useState(0);
 
-    useEffect(()=> {
-        if(item.name === 'all') {
+    useEffect(() => {
+        if (item.name === 'all') {
             setProjects(projectData);
         }
         else {
-            var newProjects = projectData.filter((project)=> {
-                return project.catagory === item.name;
-            });
-        }
-        setProjects(newProjects);
+            const newProjects = projectData.filter((project) => {
+                return project.catagory.toLowerCase() === item.name;
+            })
+            setProjects(newProjects)
+        };
     }, [item])
+
+    const handleClick = (e, index) => {
+        setItem({ name: e.target.textContent.toLowerCase() })
+        setActive(index)
+    };
 
 
     return (
@@ -27,7 +32,7 @@ const Works = () => {
                 {
                     projectNav.map((item, index) => {
                         return (
-                            <span className="work_item" key={index}>
+                            <span onClick={(e) => { handleClick(e, index) }} className={`${active == index ? 'active_work' :'work_item'}`} key={index}>
                                 {item.name}
                             </span>
                         );
@@ -36,7 +41,7 @@ const Works = () => {
             </div>
             <div className="work_container container grid">
                 {
-                    projectData.map((item) => {
+                    projects.map((item) => {
                         return (<WorkItems item={item} key={item.id}></WorkItems>)
                     })
                 }

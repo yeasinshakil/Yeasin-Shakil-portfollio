@@ -51,3 +51,68 @@
 .work_button:hover{
     transform: translateX(0.25rem);
 }
+
+/* Active work */
+.active_work{
+    cursor: pointer;
+    color: var(--container-color);
+    padding: 0.25rem 0.75rem;
+    background-color: var(--title-color);
+    font-weight: var(--font-medium);
+    border-radius: 0.5rem;
+    text-transform: capitalize;
+}
+
+/* ============Responsive layout ================= */
+
+
+/* for big screen */
+@media screen and (max-width: 992px) {
+    .work_container{
+        gap: 1.25rem;
+    }
+    .work_card{
+        padding: 1rem;
+    }
+    .work_img{
+        margin-bottom: 0.75rem;
+    }
+    .work_title{
+        margin-bottom: 0.25rem;
+    }
+}
+
+/* for medium devices */
+@media screen and (max-width: 768px) {
+    .work_container{
+        grid-template-columns: max-content;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .work_container{
+        grid-template-columns: 1fr;
+    }
+    .work_img{
+        width: 100%;
+    }
+
+}
+
+/* for small devices */
+@media screen and (max-width: 410px) {
+    .work_container{
+        grid-template-columns: 1fr;
+    }
+    .work_img{
+        width: 100%;
+    }
+    .work_item{
+        font-size: var(--small-font-size);
+    }
+    .work_filters{
+        column-gap: 0.25rem;
+    }
+
+}
