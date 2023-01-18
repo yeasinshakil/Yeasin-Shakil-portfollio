@@ -1,11 +1,14 @@
 import React from 'react';
 import './footer.css';
+import logo from '../../assets/logo.png';
 
 const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer_container container">
-                <h1 className="footer_title">Shakil</h1>
+                <div className="footer_logo">
+                    <img src={logo} alt="" className="footer_title" />
+                </div>
                 <ul className="footer_list">
                     <li>
                         <a href="#about" className="footer_link">About</a>
@@ -19,13 +22,13 @@ const Footer = () => {
                 </ul>
 
                 <div className="footer_social">
-                    <a href="https://www.facebook.com" className="footer_social_link" target='_blank'>
+                    <a href="https://www.facebook.com/profile.php?id=100007637075299" className="footer_social_link" target='_blank'>
                         <i class="bx bxl-facebook"></i>
                     </a>
-                    <a href="https://www.facebook.com" className="footer_social_link" target='_blank'>
+                    <a href="https://www.instagram.com" className="footer_social_link" target='_blank'>
                         <i class="bx bxl-instagram"></i>
                     </a>
-                    <a href="https://www.facebook.com" className="footer_social_link" target='_blank'>
+                    <a href="https://www.linkedin.com/in/yeasin-shakil-15397714b/" className="footer_social_link" target='_blank'>
                         <i class="bx bxl-linkedin"></i>
                     </a>
                 </div>

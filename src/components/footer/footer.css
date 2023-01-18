@@ -5,12 +5,19 @@
 .footer_container{
     padding: 2rem 0 6rem;
 }
+.footer_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer_title, .footer_link{
     color: var(--title-color);
 }
 .footer_title{
-    text-align: center;
+    width: 250px;
     margin-bottom: var(--mb-2);
+   
 }
 .footer_link:hover{
     color: var(--title-color-dark);
@@ -64,6 +71,6 @@
 }
 @media screen and (max-width: 410px) {
     .footer_title{
-        font-size: 2rem;
+        width: 200px;
     }
 }
