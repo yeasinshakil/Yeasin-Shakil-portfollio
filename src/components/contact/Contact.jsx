@@ -39,7 +39,7 @@ const Contact = () => {
                             <h3 className="contact_card-title">Whatsapp</h3>
                             <span className="contact_card-data">+880 1837176642</span>
 
-                            <a href="" className="contact_button">Write me{" "} <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
+                            <a href="" className="contact_button">Call me{" "} <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
                         </div>
 
                         <div className="contact_card">
@@ -56,13 +56,13 @@ const Contact = () => {
                     <form ref={form} onSubmit={sendEmail} className="contact_form">
                         <div className="contact_fomr-div">
                             <label className="contact_form-tag">Name</label>
-                            <input type="text" name="name" id="" className="contact_form-input" placeholder='inser your name' />
+                            <input type="text" name="name" id="" className="contact_form-input" placeholder='insert your name' />
 
                         </div>
 
                         <div className="contact_fomr-div">
                             <label className="contact_form-tag">E-mail</label>
-                            <input type="text" name="email" id="" className="contact_form-input" placeholder='inser your email' />
+                            <input type="text" name="email" id="" className="contact_form-input" placeholder='insert your email' />
 
                         </div>
 

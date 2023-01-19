@@ -10,12 +10,16 @@ export const projectData = [
         image: work1,
         title: 'Web design',
         catagory: "web",
+        demo: 'https://www.quora.com/What-should-I-put-on-a-resume-of-as-a-self-taught-software-engineer-with-no-prior-experience-in-web-development',
+        github: 'https://github.com/YeasinShakil/Bootstrap-project-01',
     },
     {
         id: 2,
         image: work2,
         title: 'Desney+ Clone',
         catagory: "App",
+        demo: 'https://www.quora.com/',
+        github: 'https://github.com/YeasinShakil/memory-game',
     },
     {
         id: 3,
