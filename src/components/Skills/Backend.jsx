@@ -3,7 +3,10 @@ import React from 'react';
 const Backend = () => {
     return (
         <div className='skills_content'>
-        <h3 className="skills_title">Backend Devloper</h3>
+        <h3 className="skills_title">Backend Devloper
+        <span className='back-end-extra'>(just for decorating website)</span>
+        </h3>
+        
         <div className="skills_box">
             <div className="skills_group">
                 <div className="skills_data">

@@ -44,6 +44,14 @@
 .seciton_title{
     text-align: center;
 }
+.back-end-extra{
+    display: flex;
+    font-size: var(--smaller-font-size);
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 300;
+}
 
 /* ==============Breakpoints============== */
 /* -----------For large devices -------------*/

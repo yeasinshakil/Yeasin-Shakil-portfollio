@@ -1,43 +1,45 @@
-import work1 from '../../assets/work1.jpg';
-import work2 from '../../assets/work2.jpg';
-import work3 from '../../assets/work3.jpg';
-import work4 from '../../assets/work4.jpg';
-import work5 from '../../assets/work5.jpg';
+import emmajohn from '../../assets/emma-john.jpg';
+import disney from '../../assets/disney+.jpg';
+import dream from '../../assets/dream.jpg';
+import game from '../../assets/breakout game.jpg';
+import portfolio from '../../assets/portfolio.jpg';
 
 export const projectData = [
     {
         id: 1,
-        image: work1,
-        title: 'Web design',
+        image: emmajohn,
+        title: 'E-commers Website',
         catagory: "web",
-        demo: 'https://www.quora.com/What-should-I-put-on-a-resume-of-as-a-self-taught-software-engineer-with-no-prior-experience-in-web-development',
+        demo: 'https://mellifluous-sunburst-d6d067.netlify.app',
         github: 'https://github.com/YeasinShakil/Bootstrap-project-01',
     },
     {
         id: 2,
-        image: work2,
+        image: disney,
         title: 'Desney+ Clone',
         catagory: "App",
-        demo: 'https://www.quora.com/',
-        github: 'https://github.com/YeasinShakil/memory-game',
+        demo: 'https://disneyplusclone-com.netlify.app',
+        github: 'https://github.com/YeasinShakil/disney-plus-clone',
     },
     {
         id: 3,
-        image: work3,
+        image: dream,
         title: 'Brand Desgin',
         catagory: "design",
+        demo: 'https://heartfelt-raindrop-9a4add.netlify.app',
+        github: 'https://github.com/YeasinShakil/disney-plus-clone',
     },
     {
         id: 4,
-        image: work4,
-        title: 'Emma John',
+        image: game,
+        title: 'Brick-Out Game',
         catagory: "web",
     },
     {
         id: 5,
-        image: work5,
-        title: 'Web design',
-        catagory: "web",
+        image: portfolio,
+        title: 'Portfolio',
+        catagory: "design",
     },
 
 ]
