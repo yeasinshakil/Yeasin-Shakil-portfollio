@@ -22,7 +22,7 @@ const Footer = () => {
                 </ul>
 
                 <div className="footer_social">
-                    <a href="https://www.facebook.com/profile.php?id=100007637075299" className="footer_social_link" target='_blank'>
+                    <a href="https://www.facebook.com/yeasin.araf.shakil" className="footer_social_link" target='_blank'>
                         <i class="bx bxl-facebook"></i>
                     </a>
                     <a href="https://www.instagram.com" className="footer_social_link" target='_blank'>

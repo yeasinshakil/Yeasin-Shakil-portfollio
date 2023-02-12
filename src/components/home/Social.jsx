@@ -9,7 +9,7 @@ const Social = () => {
             <a href="https://github.com/YeasinShakil" className="home_social-icon" target='_blank'>
                 <i class="uil uil-github-alt"></i>
             </a>
-            <a href="https://www.facebook.com/profile.php?id=100007637075299" className="home_social-icon" target='_blank'>
+            <a href="https://www.facebook.com/yeasin.araf.shakil" className="home_social-icon" target='_blank'>
                 <i class="uil uil-facebook-f"></i>
             </a>
         </div>

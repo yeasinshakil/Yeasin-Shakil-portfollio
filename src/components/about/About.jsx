@@ -2,8 +2,9 @@ import React from 'react';
 import './about.css'
 import Info from './Info';
 import about_photo from '../../assets/about.jpg'
-
+import resume from '../../assets/resume.pdf';
 const About = () => {
+    
     return (
         <section className="about section" id="about">
             <h2 className="seciton_title">About Me</h2>
@@ -13,7 +14,7 @@ const About = () => {
                 <div className="about_data">
                     <Info></Info>
                     <p className="about_description">I am Yeasin Shakil. I dropped out of college due to financial problems in 2018. Later I did different jobs at different times. I started my own business from 2019. In 2020 I established a fast food chain restaurant called Burger Bro but faced severe financial loss during Covid-19. Having a keen interest in technology and having some preconceived knowledge about web development, I am moving towards establishing myself as a web developer. For the past 8 months I have been learning web development using YouTube and various online resources such as W3schools.com and freecodecamp.org and have been improving constantly.</p>
-                    <a download='' href="../../assets/John-Cv.pdf" className="button button_flex">Download CV
+                    <a download={resume} href={resume} className="button button_flex">Download CV
                         <svg
                             class="button__icon"
                             xmlns="http://www.w3.org/2000/svg"
