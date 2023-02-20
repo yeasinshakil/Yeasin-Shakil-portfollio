@@ -32,7 +32,7 @@ export const projectData = [
         title: 'E-commers Website',
         catagory: "web",
         demo: 'https://emma-john-shakil.netlify.app/',
-        github: 'https://github.com/YeasinShakil/Bootstrap-project-01',
+        github: 'https://github.com/YeasinShakil/emma-john-ecommerce-website',
     },
     {
         id: 3,
