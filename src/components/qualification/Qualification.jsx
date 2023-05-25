@@ -14,19 +14,94 @@ const Qualification = () => {
             <div className="qualification_container container">
                 <div className="qualification_tabs">
                     <div className={
-                        toggleState === 1 ? "qualification_button qualification_active button_flex" : "qualification_button button_flex toggle_color"
-                    } onClick={()=> toggleTab(1)}>
-                        <i className="uil uil-graduation-cap qualification_icons"></i>{" "} Education
-                    </div>
-                    <div className={
-                        toggleState === 2 ? "qualification_button qualification_active button_flex " : "qualification_button button_flex toggle_color"
-                    } onClick={()=> toggleTab(2)}>
+                        toggleState === 1 ? "qualification_button qualification_active button_flex " : "qualification_button button_flex toggle_color"
+                    } onClick={() => toggleTab(1)}>
                         <i className="uil uil-briefcase-alt qualification_icons"></i>Experience
                     </div>
+                    <div className={
+                        toggleState === 2 ? "qualification_button qualification_active button_flex" : "qualification_button button_flex toggle_color"
+                    } onClick={() => toggleTab(2)}>
+                        <i className="uil uil-graduation-cap qualification_icons"></i>{" "} Education
+                    </div>
+
                 </div>
                 <div className="qualification_sections">
+
+
                     <div className={
                         toggleState === 1 ? "qualification_content qualification_content_active" : "qualification_content"
+                    }>
+                        <div className="qualification_data">
+                            <div></div>
+                            <div>
+                                <span className="qualification_rounder"></span>
+                                <span className="qualification_line"></span>
+                            </div>
+                            <div>
+                                <h3 className="qualification_title">Front End Developer (Intern)</h3>
+                                <span className="qualification_subtitle">Bitbytesoft</span>
+                                <div className="qualification_calender">
+                                    <i className="uil uil-calender-alt"></i> March 2023 - May 2023
+                                </div>
+                            </div>
+                            {/* <div>
+                                <span className="qualification_rounder"></span>
+                                <span className="qualification_line"></span>
+                            </div> */}
+                        </div>
+
+
+                        <div className="qualification_data">
+                            
+                            <div>
+                                <h3 className="qualification_title">Founder</h3>
+                                <span className="qualification_subtitle">Burger Bro bd</span>
+                                <div className="qualification_calender">
+                                    <i className="uil uil-calender-alt"></i> 2020 - 2021
+                                </div>
+                            </div>
+                            <div>
+                                <span className="qualification_rounder"></span>
+                                <span className="qualification_line"></span>
+                            </div>
+                        </div>
+
+                        <div className="qualification_data">
+                            <div></div>
+                            <div>
+                                <span className="qualification_rounder"></span>
+                                <span className="qualification_line"></span>
+                            </div>
+                            <div>
+                                <h3 className="qualification_title">Sales Exicutive</h3>
+                                <span className="qualification_subtitle">Grameenphone</span>
+                                <div className="qualification_calender">
+                                    <i className="uil uil-calender-alt"></i> 2018 - 2020
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div className="qualification_data">
+                            <div>
+                                <h3 className="qualification_title">Graphic Designer</h3>
+                                <span className="qualification_subtitle">A+ communication</span>
+                                <div className="qualification_calender">
+                                    <i className="uil uil-calender-alt"></i> 2018-2019
+                                </div>
+                            </div>
+                            <div>
+                                <span className="qualification_rounder"></span>
+                                <span className="qualification_line"></span>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div className={
+                        toggleState === 2 ? "qualification_content qualification_content_active" : "qualification_content"
                     }>
                         <div className="qualification_data">
                             <div>
@@ -84,7 +159,7 @@ const Qualification = () => {
                                     <i className="uil uil-calender-alt"></i> 2016
                                 </div>
                             </div>
-                            
+
                         </div>
 
                         <div className="qualification_data">
@@ -102,55 +177,7 @@ const Qualification = () => {
                         </div>
                     </div>
 
-                    <div className={
-                        toggleState === 2 ? "qualification_content qualification_content_active" : "qualification_content"
-                    }>
-                        <div className="qualification_data">
-                            <div>
-                                <h3 className="qualification_title">Founder</h3>
-                                <span className="qualification_subtitle">Burger Bro bd</span>
-                                <div className="qualification_calender">
-                                    <i className="uil uil-calender-alt"></i> 2020 - 2021
-                                </div>
-                            </div>
-                            <div>
-                                <span className="qualification_rounder"></span>
-                                <span className="qualification_line"></span>
-                            </div>
-                        </div>
 
-                        <div className="qualification_data">
-                            <div></div>
-                            <div>
-                                <span className="qualification_rounder"></span>
-                                <span className="qualification_line"></span>
-                            </div>
-                            <div>
-                                <h3 className="qualification_title">Sales Exicutive</h3>
-                                <span className="qualification_subtitle">Grameenphone</span>
-                                <div className="qualification_calender">
-                                    <i className="uil uil-calender-alt"></i> 2018 - 2020
-                                </div>
-                            </div>
-                            
-                        </div>
-
-                        <div className="qualification_data">
-                            <div>
-                                <h3 className="qualification_title">Graphic Designer</h3>
-                                <span className="qualification_subtitle">A+ communication</span>
-                                <div className="qualification_calender">
-                                    <i className="uil uil-calender-alt"></i> 2018-2019
-                                </div>
-                            </div>
-                            <div>
-                                <span className="qualification_rounder"></span>
-                                <span className="qualification_line"></span>
-                            </div>
-                        </div>
-
-                        
-                    </div>
                 </div>
             </div>
         </section>

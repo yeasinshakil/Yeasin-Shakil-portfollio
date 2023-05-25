@@ -4,9 +4,18 @@ import dream from '../../assets/dream.jpg';
 import game from '../../assets/breakout game.jpg';
 import portfolio from '../../assets/portfolio.jpg';
 import amazon_clone from '../../assets/amazon-clone.jpg';
+import moviflex from '../../assets/moviflex-cover.jpg'
 
 export const projectData = [
     
+    {
+        id: 12,
+        image: moviflex,
+        title: 'Moviflex',
+        catagory: "web",
+        demo: 'https://moviflexbyshakil.netlify.app/',
+        github: 'https://github.com/yeasinshakil/Movie-flex-app',
+    },
     {
         id: 10,
         image: amazon_clone,
