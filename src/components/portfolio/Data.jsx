@@ -13,8 +13,8 @@ export const projectData = [
         image: moviflex,
         title: 'Moviflex',
         catagory: "web",
-        demo: 'https://moviflexbyshakil.netlify.app/',
-        github: 'https://github.com/yeasinshakil/Movie-flex-app',
+        demo: 'https://moviflex-by-shakil.netlify.app/',
+        github: 'https://github.com/yeasinshakil/Moviflex-app',
     },
     {
         id: 10,
