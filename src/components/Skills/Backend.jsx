@@ -18,6 +18,17 @@ const Backend = () => {
                 </div>
                 
             </div>
+            <div className="skills_group">
+                
+                <div className="skills_data">
+                    <i className="bx bx-badge-check"></i>
+                    <div>
+                        <h3 className="skills_name">Wordpress CMS</h3>
+                        <span className="skills_level">Basic</span>
+                    </div>
+                </div>
+                
+            </div>
         </div>
     </div>
     );

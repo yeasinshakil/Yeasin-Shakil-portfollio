@@ -55,8 +55,8 @@ const Data = () => {
                   ></path>
                 </svg>
             </h1>
-            <h3 className="home_subtitle">Fornt-End Developer</h3>
-            <p className="home_description">I'm a Fornt-End Developer with 1 year of self learning coding experience. I have serious passion for creating creative and featurestic rich websites with a great user experience. I'm curently looking to make my first step in the industry with a company where I could learn and grow from strong set of mentors.</p>
+            <h3 className="home_subtitle">Front-End Developer</h3>
+            <p className="home_description">As a dedicated frontend developer, I have 6 months of hands-on internship experience coupled with 1 years of self-directed learning. Proficient in HTML5, CSS3, JavaScript, and modern frontend frameworks like React and Next.js, I am passionate about creating captivating user interfaces with a keen eye for design and a commitment to innovation. I am excited to contribute my skills to your projects and continue growing in the dynamic world of web development.</p>
             <a href="#contact" className="button button-flex">
               Say Hello
               <svg
