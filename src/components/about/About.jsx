@@ -1,16 +1,16 @@
 import React from 'react';
 import './about.css'
 import Info from './Info';
-// import about_photo from '../../assets/about.jpg'
+import about_photo from '../../assets/about.jpg'
 import resume from '../../assets/resume.pdf';
 const About = () => {
-    let photoUrl = 'https://previews.dropbox.com/p/thumb/AB9reaDXSXkaDhHKK-0iNbsrYWEQ5FEvo_uaxX4do7-ePlNE5zKOznXMVZJIZJBsH4jrYVcocybZjQhGUdpFdBQWKbMsLMkYwvdyV1FlQ8A8qWUvZF5uGvlgUfdkOqQNrZ-htJupWmKIvCugfp2ZF_5Bx1v0SYTP5rLmdDc81ahx_1qYwzvS-q-uoEctGFX57V18QMulsipN8dV65A0Av7xebQAj-S9jDap2-g3O8Z9Gm2qZJ24x-t-iYPUsc9irQKMAgNVudUQoysWYRX1DldR5vp5OXM_lqJYrSYVkPftLgohb2W8mCjJZx2azeCCtzGlgJIE8R9yZ9ePCnEOJXe24/p.jpeg'
+    // let photoUrl = 'https://previews.dropbox.com/p/thumb/AB9reaDXSXkaDhHKK-0iNbsrYWEQ5FEvo_uaxX4do7-ePlNE5zKOznXMVZJIZJBsH4jrYVcocybZjQhGUdpFdBQWKbMsLMkYwvdyV1FlQ8A8qWUvZF5uGvlgUfdkOqQNrZ-htJupWmKIvCugfp2ZF_5Bx1v0SYTP5rLmdDc81ahx_1qYwzvS-q-uoEctGFX57V18QMulsipN8dV65A0Av7xebQAj-S9jDap2-g3O8Z9Gm2qZJ24x-t-iYPUsc9irQKMAgNVudUQoysWYRX1DldR5vp5OXM_lqJYrSYVkPftLgohb2W8mCjJZx2azeCCtzGlgJIE8R9yZ9ePCnEOJXe24/p.jpeg'
     return (
         <section className="about section" id="about">
             <h2 className="seciton_title">About Me</h2>
             <span className="section_subtitle">My Introduction</span>
             <div className="about_container container grid">
-                <img src={photoUrl} alt="" className="about_img" />
+                <img src={about_photo} alt="" className="about_img" />
                 <div className="about_data">
                     <Info></Info>
                     <p className="about_description">Hello, I'm Yeasin Shakil, a enthusiastic self-taught frontend developer with 1 year of dedicated learning and 6 months of hands-on internship experience. Throughout my self-taught year, I dig into various projects that allowed me to sharpen my skills and explore the complexcity of modern web development. From building responsive landing pages that seamlessly adapt to diverse devices. I have developed a mindset of deep study and hard work in this field and I think, I have acquired the ability to move to any programming language and development framework at anytime.</p>
