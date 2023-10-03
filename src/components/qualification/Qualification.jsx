@@ -125,7 +125,7 @@ const Qualification = () => {
                                 <h3 className="qualification_title">BBA</h3>
                                 <span className="qualification_subtitle">Feni Govt College</span>
                                 <div className="qualification_calender">
-                                    <i className="uil uil-calender-alt"></i> Dropout 2018
+                                    <i className="uil uil-calender-alt"></i> Dropout 2021
                                 </div>
                             </div>
                             <div>

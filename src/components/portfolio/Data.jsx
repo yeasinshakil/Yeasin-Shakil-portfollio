@@ -1,13 +1,21 @@
-import emmajohn from '../../assets/emma-john.jpg';
+import emmajohn from '../../assets/emmajohn-store.jpg';
 import disney from '../../assets/disney+.jpg';
 import dream from '../../assets/dream.jpg';
 import game from '../../assets/breakout game.jpg';
 import portfolio from '../../assets/portfolio.jpg';
 import amazon_clone from '../../assets/amazon-clone.jpg';
-import moviflex from '../../assets/moviflex-cover.jpg'
+import moviflex from '../../assets/moviflex-cover.png'
 
 export const projectData = [
     
+    {
+        id: 1,
+        image: emmajohn,
+        title: 'Emmajohn-Store',
+        catagory: "web",
+        demo: 'https://emmajohn-store.netlify.app/',
+        github: 'https://github.com/yeasinshakil/eCommerce-website-Strapi',
+    },
     {
         id: 12,
         image: moviflex,
@@ -16,33 +24,8 @@ export const projectData = [
         demo: 'https://moviflex-by-shakil.netlify.app/',
         github: 'https://github.com/yeasinshakil/Moviflex-app',
     },
-    {
-        id: 10,
-        image: amazon_clone,
-        title: 'amazon-clone',
-        catagory: "web",
-        demo: 'https://amazon-clone-by-shakil.netlify.app/',
-        github: 'https://github.com/YeasinShakil/amazon-clone',
-    },
-
-
-    
-    {
-        id: 2,
-        image: disney,
-        title: 'Desney+ Clone',
-        catagory: "App",
-        demo: 'https://disneyplusclone-com.netlify.app',
-        github: 'https://github.com/YeasinShakil/disney-plus-clone',
-    },
-    {
-        id: 1,
-        image: emmajohn,
-        title: 'E-commers Website',
-        catagory: "web",
-        demo: 'https://emma-john-shakil.netlify.app/',
-        github: 'https://github.com/YeasinShakil/emma-john-ecommerce-website',
-    },
+   
+   
     {
         id: 3,
         image: dream,
