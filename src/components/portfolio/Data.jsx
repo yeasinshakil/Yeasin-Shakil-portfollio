@@ -12,7 +12,7 @@ export const projectData = [
         id: 1,
         image: DropBox,
         title: 'Dropbox Clone',
-        catagory: "web",
+        catagory: "app",
         demo: 'https://dropbox-clone-kappa.vercel.app/',
         github: 'https://github.com/yeasinshakil/dropbox-clone',
     },
