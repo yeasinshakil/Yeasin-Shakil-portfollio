@@ -1,15 +1,31 @@
 import emmajohn from '../../assets/emmajohn-store.jpg';
-import disney from '../../assets/disney+.jpg';
 import dream from '../../assets/dream.jpg';
 import game from '../../assets/breakout game.jpg';
 import portfolio from '../../assets/portfolio.jpg';
-import amazon_clone from '../../assets/amazon-clone.jpg';
 import moviflex from '../../assets/moviflex-cover.png'
+import DropBox from '../../assets/Dropbox Clone.png'
+import ChatGPT from '../../assets/ChatGPT.png'
 
 export const projectData = [
-    
+
     {
         id: 1,
+        image: DropBox,
+        title: 'Dropbox Clone',
+        catagory: "web",
+        demo: 'https://dropbox-clone-kappa.vercel.app/',
+        github: 'https://github.com/yeasinshakil/dropbox-clone',
+    },
+    {
+        id: 23578,
+        image: ChatGPT,
+        title: 'ChatGPT Clone',
+        catagory: "web",
+        demo: 'https://chat-gpt-type-script-next-js.vercel.app/',
+        github: 'https://github.com/yeasinshakil/chatGPT-TypeScript-NextJs',
+    },
+    {
+        id: 111,
         image: emmajohn,
         title: 'Emmajohn-Store',
         catagory: "web",
@@ -24,8 +40,8 @@ export const projectData = [
         demo: 'https://moviflex-by-shakil.netlify.app/',
         github: 'https://github.com/yeasinshakil/Moviflex-app',
     },
-   
-   
+
+
     {
         id: 3,
         image: dream,
@@ -54,8 +70,8 @@ export const projectData = [
 ]
 
 export const projectNav = [
-    {name: 'all'},
-    {name: 'app'},
-    {name: 'web'},
-    {name: 'design'},
+    { name: 'all' },
+    { name: 'app' },
+    { name: 'web' },
+    { name: 'design' },
 ]
