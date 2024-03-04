@@ -39,6 +39,7 @@
     line-height: 18px;
 }
 .skills_level{
+    opacity: 0;
     font-size: var(--tiny-font-size);
 }
 .seciton_title{
